@@ -49,7 +49,9 @@ def getCurlObj(url):
     return curl
 
 def main():
+    baseDir = os.getcwd()
     for anime in config["anime"]:
+        os.chdir(baseDir)
         logging.info("Processing {}".format(anime["animeDir"]))
         if not os.path.isdir(anime["animeDir"]):
             os.mkdir(anime["animeDir"])
