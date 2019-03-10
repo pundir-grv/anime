@@ -1,0 +1,6 @@
+maxretries : 10
+anime:
+  - animeDir : "Samurai_Champloo"
+    animeBaseUrl : "http://sr1.animelist1.ir/Anime/Ended/Samurai%20Champloo/1080p/"
+  - animeDir : "Steins_Gate_0"
+    animeBaseUrl : "http://sr1.animelist1.ir/E/Anime/2018/Spring/Steins%3BGate%200/1080p/"
